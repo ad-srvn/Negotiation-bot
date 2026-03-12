@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    9,
+    10,
+    2,
+    "standard"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    9,
+    10,
+    2,
+    "standard"
+  ],
+  "current_proposer": "ConcederTBNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "GBOKrlofCFM",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.016886208031792194,
+  "fairness": 0.8829793189802546,
+  "has_error": false,
+  "kalai_optimality": 0.8735938136947262,
+  "ks_optimality": 0.8829793189802546,
+  "last_negotiator": "ConcederTBNegotiator@1",
+  "last_step": 6,
+  "last_thread": "",
+  "last_time": 0.016613083,
+  "left_negotiators": [],
+  "max_utils": [
+    0.9999999999999999,
+    0.9999999999999999
+  ],
+  "max_welfare_optimality": 0.8001668516276624,
+  "mechanism_name": "GBOKrlofCFM",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.0,
+    0.016366612111292964
+  ],
+  "modified_kalai_optimality": 0.8829793189802546,
+  "modified_ks_optimality": 0.8829793189802546,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.8750503643735918,
+  "negotiator_ids": [
+    "ConcederTBNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "ConcederTBNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.008236500027123839,
+    0.008165209903381765
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator",
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 0.8829793189802546,
+  "partners": [
+    "ConcederTBNegotiator",
+    "ConcederTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.13725490196078433,
+  "rep": 1,
+  "reserved_values": [
+    0.0010624744725208587,
+    0.0007574209704742231
+  ],
+  "results": null,
+  "run_id": "GBOKrlofCFM",
+  "running": false,
+  "scenario": "S3_E",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 6,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.016613083,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.5331541218637992,
+    0.44971813056919435
+  ],
+  "waiting": false
+}

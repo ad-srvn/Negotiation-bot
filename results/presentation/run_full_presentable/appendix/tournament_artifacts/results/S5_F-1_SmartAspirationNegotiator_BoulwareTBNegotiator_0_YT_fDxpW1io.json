@@ -1,0 +1,125 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    9,
+    10,
+    7,
+    "standard"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 0
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    9,
+    10,
+    7,
+    "standard"
+  ],
+  "current_proposer": "SmartAspirationNegotiator@0",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "YT_fDxpW1io",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.034919457975775,
+  "fairness": 1.0,
+  "has_error": false,
+  "kalai_optimality": 1.0,
+  "ks_optimality": 0.9807999989329749,
+  "last_negotiator": "SmartAspirationNegotiator@0",
+  "last_step": 37,
+  "last_thread": "",
+  "last_time": 0.029222583,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 1.0,
+  "mechanism_name": "YT_fDxpW1io",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.046783625730994156,
+    0.09356725146198831
+  ],
+  "modified_kalai_optimality": 0.9807999989329749,
+  "modified_ks_optimality": 0.9807999989329749,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 1.0,
+  "negotiator_ids": [
+    "SmartAspirationNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "SmartAspirationNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.014010882761795074,
+    0.017965161590836942
+  ],
+  "negotiator_types": [
+    "src.negotiators.SmartAspirationNegotiator",
+    "negmas.gb.negotiators.timebased.BoulwareTBNegotiator"
+  ],
+  "new_data": [
+    [
+      "SmartAspirationNegotiator@0",
+      null
+    ]
+  ],
+  "new_offerer_agents": [
+    null
+  ],
+  "new_offers": [
+    [
+      "SmartAspirationNegotiator@0",
+      [
+        9,
+        10,
+        7,
+        "standard"
+      ]
+    ]
+  ],
+  "params": null,
+  "pareto_optimality": 1.0,
+  "partners": [
+    "SmartAspirationNegotiator",
+    "BoulwareTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.7450980392156863,
+  "rep": 0,
+  "reserved_values": [
+    0.0007811278057266481,
+    0.0009639366705748589
+  ],
+  "results": null,
+  "run_id": "YT_fDxpW1io",
+  "running": false,
+  "scenario": "S5_F-1",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 37,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.029222583,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.7397660818713451,
+    0.7725532264198727
+  ],
+  "waiting": false
+}

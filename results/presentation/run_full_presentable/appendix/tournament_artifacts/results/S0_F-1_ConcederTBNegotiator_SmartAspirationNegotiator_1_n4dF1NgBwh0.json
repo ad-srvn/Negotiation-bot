@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    2,
+    10,
+    3,
+    "standard"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    2,
+    10,
+    3,
+    "standard"
+  ],
+  "current_proposer": "SmartAspirationNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "n4dF1NgBwh0",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.03510287497192621,
+  "fairness": 0.5660350475489319,
+  "has_error": false,
+  "kalai_optimality": 0.5660350475489319,
+  "ks_optimality": 0.5491246568472992,
+  "last_negotiator": "SmartAspirationNegotiator@1",
+  "last_step": 27,
+  "last_thread": "",
+  "last_time": 0.029350333,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 0.7505353459804499,
+  "mechanism_name": "n4dF1NgBwh0",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.046783625730994156,
+    0.09356725146198831
+  ],
+  "modified_kalai_optimality": 0.5491246568472992,
+  "modified_ks_optimality": 0.5491246568472992,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.5660350475489319,
+  "negotiator_ids": [
+    "ConcederTBNegotiator@0",
+    "SmartAspirationNegotiator@1"
+  ],
+  "negotiator_names": [
+    "ConcederTBNegotiator@0",
+    "SmartAspirationNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.0199842918664217,
+    0.013004450709559023
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator",
+    "src.negotiators.SmartAspirationNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 0.9858911492972834,
+  "partners": [
+    "ConcederTBNegotiator",
+    "SmartAspirationNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.5490196078431373,
+  "rep": 1,
+  "reserved_values": [
+    0.0007442816259952948,
+    0.0008771261662935939
+  ],
+  "results": null,
+  "run_id": "n4dF1NgBwh0",
+  "running": false,
+  "scenario": "S0_F-1",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 27,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.029350333,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.19428200129954518,
+    0.9407670939817185
+  ],
+  "waiting": false
+}

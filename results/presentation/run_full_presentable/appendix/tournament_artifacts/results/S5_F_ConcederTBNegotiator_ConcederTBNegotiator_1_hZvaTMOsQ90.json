@@ -1,0 +1,125 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    8,
+    9,
+    8,
+    "premium"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    8,
+    9,
+    8,
+    "premium"
+  ],
+  "current_proposer": "ConcederTBNegotiator@0",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "hZvaTMOsQ90",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.013165750016923994,
+  "fairness": 0.8218283087855961,
+  "has_error": false,
+  "kalai_optimality": 0.8213816800521802,
+  "ks_optimality": 0.8218283087855961,
+  "last_negotiator": "ConcederTBNegotiator@0",
+  "last_step": 2,
+  "last_thread": "",
+  "last_time": 0.012975542,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 0.7806795632742511,
+  "mechanism_name": "hZvaTMOsQ90",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.09356725146198831,
+    0.046783625730994156
+  ],
+  "modified_kalai_optimality": 0.8218283087855961,
+  "modified_ks_optimality": 0.8218283087855961,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.8213816800521802,
+  "negotiator_ids": [
+    "ConcederTBNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "ConcederTBNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.0067400840343907475,
+    0.006257040950004011
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator",
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator"
+  ],
+  "new_data": [
+    [
+      "ConcederTBNegotiator@0",
+      null
+    ]
+  ],
+  "new_offerer_agents": [
+    null
+  ],
+  "new_offers": [
+    [
+      "ConcederTBNegotiator@0",
+      [
+        8,
+        9,
+        8,
+        "premium"
+      ]
+    ]
+  ],
+  "params": null,
+  "pareto_optimality": 0.8338690225980921,
+  "partners": [
+    "ConcederTBNegotiator",
+    "ConcederTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.058823529411764705,
+  "rep": 1,
+  "reserved_values": [
+    0.0009639366705748589,
+    0.0007811278057266481
+  ],
+  "results": null,
+  "run_id": "hZvaTMOsQ90",
+  "running": false,
+  "scenario": "S5_F",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 2,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.012975542,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.5968161143599741,
+    0.5838206627680312
+  ],
+  "waiting": false
+}

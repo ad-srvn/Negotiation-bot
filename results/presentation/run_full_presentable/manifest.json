@@ -1,0 +1,170 @@
+{
+  "started_at": "2026-03-11T18:01:20",
+  "finished_at": "2026-03-11T18:27:27",
+  "duration_seconds": 1566.6862145829946,
+  "mode": "full",
+  "status": "success",
+  "error": null,
+  "cleanup": {
+    "archived_to": null,
+    "removed_dirs": 4,
+    "removed_files": 0
+  },
+  "steps": [
+    {
+      "step": "Smoke Test",
+      "command": [
+        "/opt/homebrew/opt/python@3.11/bin/python3.11",
+        "scripts/smoke_test.py"
+      ],
+      "log": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs/smoke_test.log",
+      "duration_seconds": 0.30780562496511266
+    },
+    {
+      "step": "Pytest",
+      "command": [
+        "/opt/homebrew/opt/python@3.11/bin/python3.11",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "log": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs/pytest.log",
+      "duration_seconds": 1.3202301660203375
+    },
+    {
+      "step": "Main Experiments",
+      "command": [
+        "/opt/homebrew/opt/python@3.11/bin/python3.11",
+        "-m",
+        "src.run_experiments",
+        "--output-dir",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/main",
+        "--n-seeds",
+        "40",
+        "--profiles",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "--n-steps",
+        "12",
+        "24",
+        "36",
+        "--time-limit",
+        "1.0",
+        "--buyer-reserved-value",
+        "0.35",
+        "--seller-reserved-value",
+        "0.35",
+        "--pend",
+        "0.04",
+        "--pend-per-second",
+        "0.02",
+        "--bootstrap-resamples",
+        "2000",
+        "--permutation-resamples",
+        "2000",
+        "--progress-every",
+        "50"
+      ],
+      "log": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs/main_experiments.log",
+      "duration_seconds": 1129.313156792021
+    },
+    {
+      "step": "Plot Stats",
+      "command": [
+        "/opt/homebrew/opt/python@3.11/bin/python3.11",
+        "scripts/plot_stats.py",
+        "--results-dir",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/main",
+        "--output-dir",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/figures/stats"
+      ],
+      "log": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs/plot_stats.log",
+      "duration_seconds": 38.038007125025615
+    },
+    {
+      "step": "Appendix Tournament",
+      "command": [
+        "/opt/homebrew/opt/python@3.11/bin/python3.11",
+        "-m",
+        "src.appendix_tournament",
+        "--output-dir",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/appendix",
+        "--n-scenarios",
+        "6",
+        "--n-repetitions",
+        "2",
+        "--n-steps",
+        "50",
+        "--seed",
+        "2026"
+      ],
+      "log": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs/appendix_tournament.log",
+      "duration_seconds": 28.11459054198349
+    },
+    {
+      "step": "Multilateral Experiments",
+      "command": [
+        "/opt/homebrew/opt/python@3.11/bin/python3.11",
+        "-m",
+        "src.run_multilateral_experiments",
+        "--output-dir",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/multilateral",
+        "--n-seeds",
+        "20",
+        "--profiles",
+        "M1",
+        "M2",
+        "M3",
+        "--n-steps",
+        "20",
+        "40",
+        "--time-limit",
+        "1.0",
+        "--n-suppliers",
+        "2",
+        "--buyer-reserved-value",
+        "0.35",
+        "--supplier-reserved-value",
+        "0.35",
+        "--pend",
+        "0.04",
+        "--pend-per-second",
+        "0.02",
+        "--bootstrap-resamples",
+        "1000",
+        "--progress-every",
+        "50"
+      ],
+      "log": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs/multilateral_experiments.log",
+      "duration_seconds": 361.43597483297344
+    },
+    {
+      "step": "Plot Analysis",
+      "command": [
+        "/opt/homebrew/opt/python@3.11/bin/python3.11",
+        "scripts/plot_analysis.py",
+        "--results-dir",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/main",
+        "--output-dir",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/figures/analysis",
+        "--multilateral-runs",
+        "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/multilateral/multi_runs.csv"
+      ],
+      "log": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs/plot_analysis.log",
+      "duration_seconds": 8.15576625004178
+    }
+  ],
+  "layout": {
+    "root": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable",
+    "main_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/main",
+    "appendix_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/appendix",
+    "multilateral_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/multilateral",
+    "figures_stats_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/figures/stats",
+    "figures_analysis_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/figures/analysis",
+    "logs_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/logs"
+  }
+}

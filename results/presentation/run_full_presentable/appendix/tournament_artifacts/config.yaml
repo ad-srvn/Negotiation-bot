@@ -1,0 +1,101 @@
+competitor_names:
+- BoulwareTBNegotiator
+- LinearTBNegotiator
+- ConcederTBNegotiator
+- SmartAspirationNegotiator
+- GeniusBOABaselineNegotiator
+competitor_params:
+- {}
+- {}
+- {}
+- {}
+- {}
+competitor_type_map:
+  BoulwareTBNegotiator: negmas.gb.negotiators.timebased.BoulwareTBNegotiator
+  ConcederTBNegotiator: negmas.gb.negotiators.timebased.ConcederTBNegotiator
+  GeniusBOABaselineNegotiator: src.negotiators.GeniusBOABaselineNegotiator
+  LinearTBNegotiator: negmas.gb.negotiators.timebased.LinearTBNegotiator
+  SmartAspirationNegotiator: src.negotiators.SmartAspirationNegotiator
+competitors:
+- negmas.gb.negotiators.timebased.BoulwareTBNegotiator
+- negmas.gb.negotiators.timebased.LinearTBNegotiator
+- negmas.gb.negotiators.timebased.ConcederTBNegotiator
+- src.negotiators.SmartAspirationNegotiator
+- src.negotiators.GeniusBOABaselineNegotiator
+distribute_opponent_modeling_scores: true
+external_timeout: null
+final_score:
+- advantage
+- mean
+has_after_construction_callback: false
+has_after_end_callback: false
+has_before_start_callback: false
+has_end_callback: false
+has_neg_progress_callback: false
+has_progress_callback: false
+has_start_callback: false
+hidden_time_limit: null
+id_reveals_type: false
+ignore_discount: false
+ignore_reserved: false
+image_format: webp
+mask_scenario_names: true
+mechanism_params:
+  ignore_negotiator_exceptions: false
+mechanism_type: negmas.sao.mechanism.SAOMechanism
+memory_optimization: speed
+metadata: null
+n_competitors: 5
+n_opponents: 0
+n_repetitions: 2
+n_scenarios: 6
+n_steps: 50
+name_reveals_type: true
+negotiator_time_limit: null
+njobs: -1
+normalize_ufuns: true
+only_failures_on_self_play: false
+opponent_modeling_metrics: []
+opponent_names: []
+opponent_params: []
+opponent_type_map: {}
+opponents: null
+path: /Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/appendix/tournament_artifacts
+pend: 0.0
+pend_per_second: 0.0
+plot_fraction: 0.0
+plot_params: null
+private_infos:
+- - {}
+  - {}
+- - {}
+  - {}
+- - {}
+  - {}
+- - {}
+  - {}
+- - {}
+  - {}
+- - {}
+  - {}
+python_class_identifier: __python_class__
+raise_exceptions: true
+randomize_runs: true
+raw_aggregated_metrics: null
+recalculate_stats: false
+reserved_value_eps: 0.0
+rotate_private_infos: true
+rotate_ufuns: true
+save_every: 0
+save_negotiations_as_folders: false
+save_scenario_figs: false
+save_stats: true
+self_play: true
+shorten_names: null
+sort_runs: false
+stats_aggregated_metrics: null
+step_time_limit: null
+storage_format: null
+storage_optimization: speed
+time_limit: null
+verbosity: 1

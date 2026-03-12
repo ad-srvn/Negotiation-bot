@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    0,
+    9,
+    4,
+    "premium"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 0
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    0,
+    9,
+    4,
+    "premium"
+  ],
+  "current_proposer": "LinearTBNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "P__acwgAmAk",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.01780091703403741,
+  "fairness": 0.7804057992535158,
+  "has_error": false,
+  "kalai_optimality": 0.7590536317045327,
+  "ks_optimality": 0.7590536317045327,
+  "last_negotiator": "LinearTBNegotiator@1",
+  "last_step": 9,
+  "last_thread": "",
+  "last_time": 0.017580291,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 0.9815144577632695,
+  "mechanism_name": "P__acwgAmAk",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.023809523809523808,
+    0.0
+  ],
+  "modified_kalai_optimality": 0.7590536317045327,
+  "modified_ks_optimality": 0.7590536317045327,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.7804057992535158,
+  "negotiator_ids": [
+    "ConcederTBNegotiator@0",
+    "LinearTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "ConcederTBNegotiator@0",
+    "LinearTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.009477789921220392,
+    0.0076039552222937346
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator",
+    "negmas.gb.negotiators.timebased.LinearTBNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 1.0,
+  "partners": [
+    "ConcederTBNegotiator",
+    "LinearTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.19607843137254902,
+  "rep": 0,
+  "reserved_values": [
+    0.0007754352238636291,
+    0.002193248997500751
+  ],
+  "results": null,
+  "run_id": "P__acwgAmAk",
+  "running": false,
+  "scenario": "S1_B-1",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 9,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.017580291,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.373015873015873,
+    0.8465608465608465
+  ],
+  "waiting": false
+}

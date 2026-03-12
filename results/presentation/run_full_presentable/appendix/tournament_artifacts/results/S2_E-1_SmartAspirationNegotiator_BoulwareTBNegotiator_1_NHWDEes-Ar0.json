@@ -1,0 +1,125 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    9,
+    2,
+    0,
+    "premium"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    9,
+    2,
+    0,
+    "premium"
+  ],
+  "current_proposer": "SmartAspirationNegotiator@0",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "NHWDEes-Ar0",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.03854712500469759,
+  "fairness": 0.9508547189471204,
+  "has_error": false,
+  "kalai_optimality": 0.9143580762567265,
+  "ks_optimality": 0.9301480822807243,
+  "last_negotiator": "SmartAspirationNegotiator@0",
+  "last_step": 42,
+  "last_thread": "",
+  "last_time": 0.032758708,
+  "left_negotiators": [],
+  "max_utils": [
+    0.9999999999999999,
+    0.9999999999999999
+  ],
+  "max_welfare_optimality": 0.9990919435291352,
+  "mechanism_name": "NHWDEes-Ar0",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.016366612111292964,
+    0.0
+  ],
+  "modified_kalai_optimality": 0.9301480822807243,
+  "modified_ks_optimality": 0.9301480822807243,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.9508547189471204,
+  "negotiator_ids": [
+    "SmartAspirationNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "SmartAspirationNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.015493297891225666,
+    0.019732330925762653
+  ],
+  "negotiator_types": [
+    "src.negotiators.SmartAspirationNegotiator",
+    "negmas.gb.negotiators.timebased.BoulwareTBNegotiator"
+  ],
+  "new_data": [
+    [
+      "SmartAspirationNegotiator@0",
+      null
+    ]
+  ],
+  "new_offerer_agents": [
+    null
+  ],
+  "new_offers": [
+    [
+      "SmartAspirationNegotiator@0",
+      [
+        9,
+        2,
+        0,
+        "premium"
+      ]
+    ]
+  ],
+  "params": null,
+  "pareto_optimality": 1.0,
+  "partners": [
+    "SmartAspirationNegotiator",
+    "BoulwareTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.8431372549019608,
+  "rep": 1,
+  "reserved_values": [
+    0.0006426653306037134,
+    0.0012950634439420957
+  ],
+  "results": null,
+  "run_id": "NHWDEes-Ar0",
+  "running": false,
+  "scenario": "S2_E-1",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 42,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.032758708,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.541734860883797,
+    0.6854838709677419
+  ],
+  "waiting": false
+}

@@ -1,0 +1,21 @@
+{
+  "n_scenarios": 6,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "seed": 2026,
+  "competitors": [
+    "BoulwareTBNegotiator",
+    "LinearTBNegotiator",
+    "ConcederTBNegotiator",
+    "SmartAspirationNegotiator",
+    "GeniusBOABaselineNegotiator"
+  ],
+  "profile_families": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ]
+}

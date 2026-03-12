@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    7,
+    10,
+    8,
+    "standard"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    7,
+    10,
+    8,
+    "standard"
+  ],
+  "current_proposer": "GeniusBOABaselineNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "99nYE9uH8tI",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.03089429100509733,
+  "fairness": 0.8625646620321361,
+  "has_error": false,
+  "kalai_optimality": 0.8625646620321361,
+  "ks_optimality": 0.8474798110912376,
+  "last_negotiator": "GeniusBOABaselineNegotiator@1",
+  "last_step": 43,
+  "last_thread": "",
+  "last_time": 0.030629333,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 0.8921745256681245,
+  "mechanism_name": "99nYE9uH8tI",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.09356725146198831,
+    0.046783625730994156
+  ],
+  "modified_kalai_optimality": 0.8474798110912376,
+  "modified_ks_optimality": 0.8474798110912376,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.8625646620321361,
+  "negotiator_ids": [
+    "BoulwareTBNegotiator@0",
+    "GeniusBOABaselineNegotiator@1"
+  ],
+  "negotiator_names": [
+    "BoulwareTBNegotiator@0",
+    "GeniusBOABaselineNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.020305926853325218,
+    0.007246612920425832
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.BoulwareTBNegotiator",
+    "src.negotiators.GeniusBOABaselineNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 0.9573599675039428,
+  "partners": [
+    "BoulwareTBNegotiator",
+    "GeniusBOABaselineNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.8627450980392157,
+  "rep": 1,
+  "reserved_values": [
+    0.0008771261662935939,
+    0.0007442816259952948
+  ],
+  "results": null,
+  "run_id": "99nYE9uH8tI",
+  "running": false,
+  "scenario": "S0_F",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 43,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.030629333,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.7894736842105263,
+    0.559779077322937
+  ],
+  "waiting": false
+}

@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    0,
+    10,
+    1,
+    "standard"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 0
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    0,
+    10,
+    1,
+    "standard"
+  ],
+  "current_proposer": "ConcederTBNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "lRi_KFj4DUE",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.03940829198108986,
+  "fairness": 0.6257309941520469,
+  "has_error": false,
+  "kalai_optimality": 0.6257309941520469,
+  "ks_optimality": 0.6257309941520469,
+  "last_negotiator": "ConcederTBNegotiator@1",
+  "last_step": 32,
+  "last_thread": "",
+  "last_time": 0.03448425,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 1.0,
+  "mechanism_name": "lRi_KFj4DUE",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.0,
+    0.0
+  ],
+  "modified_kalai_optimality": 0.6257309941520469,
+  "modified_ks_optimality": 0.6257309941520469,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.6257309941520469,
+  "negotiator_ids": [
+    "SmartAspirationNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "SmartAspirationNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.01208316528936848,
+    0.024660455237608403
+  ],
+  "negotiator_types": [
+    "src.negotiators.SmartAspirationNegotiator",
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 1.0,
+  "partners": [
+    "SmartAspirationNegotiator",
+    "ConcederTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.6470588235294118,
+  "rep": 0,
+  "reserved_values": [
+    0.004370114375307104,
+    0.0034960628013070215
+  ],
+  "results": null,
+  "run_id": "lRi_KFj4DUE",
+  "running": false,
+  "scenario": "S4_A",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 32,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.03448425,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.8771929824561403,
+    0.12280701754385964
+  ],
+  "waiting": false
+}

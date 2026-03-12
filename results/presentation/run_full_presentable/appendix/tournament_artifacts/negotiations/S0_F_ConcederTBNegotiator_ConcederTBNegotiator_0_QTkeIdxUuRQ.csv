@@ -1,0 +1,4 @@
+time,relative_time,step,negotiator,offer,responses,state,text,data,ConcederTBNegotiator@0,ConcederTBNegotiator@1
+0.0,0.0196078431372549,0,ConcederTBNegotiator@0,"(1, 7, 5, 'standard')",{},continuing,,,0.6608187134502925,0.22547108512020797
+0.0,0.0196078431372549,0,ConcederTBNegotiator@1,"(8, 6, 6, 'standard')",{},continuing,,,0.45835830377576303,0.6432748538011696
+0.012322709,0.0392156862745098,1,ConcederTBNegotiator@0,"(8, 9, 8, 'premium')",{'ConcederTBNegotiator@0': <ResponseType.ACCEPT_OFFER: 0>},agreement,,,0.5968161143599741,0.5838206627680312

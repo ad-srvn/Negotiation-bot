@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    7,
+    2,
+    8,
+    "basic"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    7,
+    2,
+    8,
+    "basic"
+  ],
+  "current_proposer": "BoulwareTBNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "Ijnl-s_UgTc",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.04111741698579863,
+  "fairness": 0.6140350877192983,
+  "has_error": false,
+  "kalai_optimality": 0.6140350877192983,
+  "ks_optimality": 0.6140350877192983,
+  "last_negotiator": "BoulwareTBNegotiator@1",
+  "last_step": 32,
+  "last_thread": "",
+  "last_time": 0.04083175,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 0.9999999999999999,
+  "mechanism_name": "Ijnl-s_UgTc",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.0,
+    0.0
+  ],
+  "modified_kalai_optimality": 0.6198830409356726,
+  "modified_ks_optimality": 0.6198830409356726,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.6140350877192983,
+  "negotiator_ids": [
+    "ConcederTBNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "ConcederTBNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.02351737895514816,
+    0.014982125896494836
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator",
+    "negmas.gb.negotiators.timebased.BoulwareTBNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 0.9999999999999999,
+  "partners": [
+    "ConcederTBNegotiator",
+    "BoulwareTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.6470588235294118,
+  "rep": 1,
+  "reserved_values": [
+    0.004370114375307104,
+    0.0034960628013070215
+  ],
+  "results": null,
+  "run_id": "Ijnl-s_UgTc",
+  "running": false,
+  "scenario": "S4_A",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 32,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.04083175,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.11695906432748539,
+    0.8830409356725145
+  ],
+  "waiting": false
+}

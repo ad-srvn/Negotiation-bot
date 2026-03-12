@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    5,
+    8,
+    8,
+    "basic"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 0
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    5,
+    8,
+    8,
+    "basic"
+  ],
+  "current_proposer": "ConcederTBNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "h5D19NfIf40",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.020946041971910745,
+  "fairness": 0.756164987707006,
+  "has_error": false,
+  "kalai_optimality": 0.756164987707006,
+  "ks_optimality": 0.756164987707006,
+  "last_negotiator": "ConcederTBNegotiator@1",
+  "last_step": 12,
+  "last_thread": "",
+  "last_time": 0.02070475,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 0.9010151744882784,
+  "mechanism_name": "h5D19NfIf40",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.023809523809523808,
+    0.0
+  ],
+  "modified_kalai_optimality": 0.756164987707006,
+  "modified_ks_optimality": 0.756164987707006,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.7341014220333839,
+  "negotiator_ids": [
+    "LinearTBNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "LinearTBNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.009054334019310772,
+    0.010936831764411181
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.LinearTBNegotiator",
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 1.0,
+  "partners": [
+    "LinearTBNegotiator",
+    "ConcederTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.2549019607843137,
+  "rep": 0,
+  "reserved_values": [
+    0.0007754352238636291,
+    0.002193248997500751
+  ],
+  "results": null,
+  "run_id": "h5D19NfIf40",
+  "running": false,
+  "scenario": "S1_B-1",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 12,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.02070475,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.796801346187857,
+    0.32275132275132273
+  ],
+  "waiting": false
+}

@@ -1,0 +1,11 @@
+{
+  "hidden_time_limit": null,
+  "ignore_negotiator_exceptions": false,
+  "n_steps": 50,
+  "negotiator_time_limit": null,
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "step_time_limit": null,
+  "time_limit": null,
+  "type": "negmas.sao.mechanism.SAOMechanism"
+}

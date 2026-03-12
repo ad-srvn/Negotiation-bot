@@ -1,0 +1,125 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    8,
+    3,
+    1,
+    "basic"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 0
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    8,
+    3,
+    1,
+    "basic"
+  ],
+  "current_proposer": "GeniusBOABaselineNegotiator@0",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "DNXWZm46e-Y",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.03041750000556931,
+  "fairness": 0.9204659248418944,
+  "has_error": false,
+  "kalai_optimality": 0.9204659248418944,
+  "ks_optimality": 0.9173845975320372,
+  "last_negotiator": "GeniusBOABaselineNegotiator@0",
+  "last_step": 43,
+  "last_thread": "",
+  "last_time": 0.030193875,
+  "left_negotiators": [],
+  "max_utils": [
+    0.9999999999999999,
+    0.9999999999999999
+  ],
+  "max_welfare_optimality": 0.8608668139553324,
+  "mechanism_name": "DNXWZm46e-Y",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.0,
+    0.016366612111292964
+  ],
+  "modified_kalai_optimality": 0.9173845975320372,
+  "modified_ks_optimality": 0.9173845975320372,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.8961624518430267,
+  "negotiator_ids": [
+    "GeniusBOABaselineNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "GeniusBOABaselineNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.007266420056112111,
+    0.01979270880110562
+  ],
+  "negotiator_types": [
+    "src.negotiators.GeniusBOABaselineNegotiator",
+    "negmas.gb.negotiators.timebased.BoulwareTBNegotiator"
+  ],
+  "new_data": [
+    [
+      "GeniusBOABaselineNegotiator@0",
+      null
+    ]
+  ],
+  "new_offerer_agents": [
+    null
+  ],
+  "new_offers": [
+    [
+      "GeniusBOABaselineNegotiator@0",
+      [
+        8,
+        3,
+        1,
+        "basic"
+      ]
+    ]
+  ],
+  "params": null,
+  "pareto_optimality": 0.9213631521657724,
+  "partners": [
+    "GeniusBOABaselineNegotiator",
+    "BoulwareTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.8627450980392157,
+  "rep": 0,
+  "reserved_values": [
+    0.0010624744725208587,
+    0.0007574209704742231
+  ],
+  "results": null,
+  "run_id": "DNXWZm46e-Y",
+  "running": false,
+  "scenario": "S3_E",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 43,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.030193875,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.49405692864529305,
+    0.5633751591198399
+  ],
+  "waiting": false
+}

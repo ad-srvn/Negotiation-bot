@@ -1,0 +1,29 @@
+{
+  "n_steps_list": [
+    20,
+    40
+  ],
+  "profiles": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "n_seeds": 20,
+  "n_suppliers": 2,
+  "strategies": [
+    "BoulwareTBNegotiator",
+    "LinearTBNegotiator",
+    "ConcederTBNegotiator",
+    "SmartAspirationNegotiator",
+    "GeniusBOABaselineNegotiator"
+  ],
+  "include_self_play": true,
+  "output_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/multilateral",
+  "time_limit": 1.0,
+  "buyer_reserved_value": 0.35,
+  "supplier_reserved_value": 0.35,
+  "pend": 0.04,
+  "pend_per_second": 0.02,
+  "bootstrap_resamples": 1000,
+  "progress_every": 50
+}

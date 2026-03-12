@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    8,
+    1,
+    5,
+    "basic"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    8,
+    1,
+    5,
+    "basic"
+  ],
+  "current_proposer": "ConcederTBNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "lQnFhd4Z2ms",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.03203050000593066,
+  "fairness": 0.6432748538011697,
+  "has_error": false,
+  "kalai_optimality": 0.6432748538011697,
+  "ks_optimality": 0.6432748538011697,
+  "last_negotiator": "ConcederTBNegotiator@1",
+  "last_step": 32,
+  "last_thread": "",
+  "last_time": 0.031805167,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 1.0,
+  "mechanism_name": "lQnFhd4Z2ms",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.0,
+    0.0
+  ],
+  "modified_kalai_optimality": 0.6491228070175439,
+  "modified_ks_optimality": 0.6491228070175439,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.6432748538011697,
+  "negotiator_ids": [
+    "GeniusBOABaselineNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "GeniusBOABaselineNegotiator@0",
+    "ConcederTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.0060022485558874905,
+    0.023489330953452736
+  ],
+  "negotiator_types": [
+    "src.negotiators.GeniusBOABaselineNegotiator",
+    "negmas.gb.negotiators.timebased.ConcederTBNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 1.0,
+  "partners": [
+    "GeniusBOABaselineNegotiator",
+    "ConcederTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.6470588235294118,
+  "rep": 1,
+  "reserved_values": [
+    0.0034960628013070215,
+    0.004370114375307104
+  ],
+  "results": null,
+  "run_id": "lQnFhd4Z2ms",
+  "running": false,
+  "scenario": "S4_A-1",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 32,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.031805167,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.8538011695906432,
+    0.14619883040935672
+  ],
+  "waiting": false
+}

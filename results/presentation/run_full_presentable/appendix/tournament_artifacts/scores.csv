@@ -1,0 +1,6 @@
+index,strategy,score
+0,SmartAspirationNegotiator,0.7069613950504912
+1,BoulwareTBNegotiator,0.697533371598557
+2,GeniusBOABaselineNegotiator,0.6924219866600405
+3,LinearTBNegotiator,0.4788534870132007
+4,ConcederTBNegotiator,0.2990029792155741

@@ -1,0 +1,10 @@
+Will run 600 negotiations on 6 scenarios between 5 competitors
+negotiations ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:23
+                      strategy     score
+0    SmartAspirationNegotiator  0.706961
+1         BoulwareTBNegotiator  0.697533
+2  GeniusBOABaselineNegotiator  0.692422
+3           LinearTBNegotiator  0.478853
+4         ConcederTBNegotiator  0.299003
+Tournament completed in 26s965ms
+Wrote appendix score summary to /Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/appendix/appendix_scores.csv

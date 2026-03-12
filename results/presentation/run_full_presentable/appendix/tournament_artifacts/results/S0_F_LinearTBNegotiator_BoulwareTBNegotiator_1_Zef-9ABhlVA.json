@@ -1,0 +1,111 @@
+{
+  "__python_class__": "negmas.preferences.ops.OutcomeOptimality",
+  "agreement": [
+    9,
+    9,
+    9,
+    "basic"
+  ],
+  "annotation": {
+    "n_repetitions": 2,
+    "rep": 1
+  },
+  "broken": false,
+  "current_data": null,
+  "current_offer": [
+    9,
+    9,
+    9,
+    "basic"
+  ],
+  "current_proposer": "BoulwareTBNegotiator@1",
+  "current_proposer_agent": null,
+  "effective_scenario_name": "Zef-9ABhlVA",
+  "erred_agent": "",
+  "erred_negotiator": "",
+  "error_details": "",
+  "execution_time": 0.0367730000289157,
+  "fairness": 0.7805360810361862,
+  "has_error": false,
+  "kalai_optimality": 0.7625130806021299,
+  "ks_optimality": 0.7805360810361862,
+  "last_negotiator": "BoulwareTBNegotiator@1",
+  "last_step": 32,
+  "last_thread": "",
+  "last_time": 0.036504667,
+  "left_negotiators": [],
+  "max_utils": [
+    1.0,
+    1.0
+  ],
+  "max_welfare_optimality": 0.8984044946650847,
+  "mechanism_name": "Zef-9ABhlVA",
+  "mechanism_type": "negmas.sao.mechanism.SAOMechanism",
+  "min_utils": [
+    0.09356725146198831,
+    0.046783625730994156
+  ],
+  "modified_kalai_optimality": 0.7805360810361862,
+  "modified_ks_optimality": 0.7805360810361862,
+  "n_acceptances": 2,
+  "n_negotiators": 2,
+  "n_repetitions": 2,
+  "n_steps": 50,
+  "nash_optimality": 0.7625130806021299,
+  "negotiator_ids": [
+    "LinearTBNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_names": [
+    "LinearTBNegotiator@0",
+    "BoulwareTBNegotiator@1"
+  ],
+  "negotiator_time_limit": Infinity,
+  "negotiator_times": [
+    0.018150875344872475,
+    0.016059455228969455
+  ],
+  "negotiator_types": [
+    "negmas.gb.negotiators.timebased.LinearTBNegotiator",
+    "negmas.gb.negotiators.timebased.BoulwareTBNegotiator"
+  ],
+  "new_data": [],
+  "new_offerer_agents": [
+    null,
+    null
+  ],
+  "new_offers": [],
+  "params": null,
+  "pareto_optimality": 1.0,
+  "partners": [
+    "LinearTBNegotiator",
+    "BoulwareTBNegotiator"
+  ],
+  "pend": 0.0,
+  "pend_per_second": 0.0,
+  "relative_time": 0.6470588235294118,
+  "rep": 1,
+  "reserved_values": [
+    0.0008771261662935939,
+    0.0007442816259952948
+  ],
+  "results": null,
+  "run_id": "Zef-9ABhlVA",
+  "running": false,
+  "scenario": "S0_F",
+  "scored_indices": null,
+  "shared_n_steps": 50,
+  "shared_time_limit": Infinity,
+  "started": true,
+  "step": 32,
+  "step_time_limit": Infinity,
+  "threads": {},
+  "time": 0.036504667,
+  "time_limit": Infinity,
+  "timedout": false,
+  "utilities": [
+    0.48862897985705,
+    0.8700454840805718
+  ],
+  "waiting": false
+}

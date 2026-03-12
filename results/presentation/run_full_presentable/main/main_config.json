@@ -1,0 +1,39 @@
+{
+  "issues": [
+    "price",
+    "quantity",
+    "delivery_time",
+    "service_level"
+  ],
+  "n_steps_list": [
+    12,
+    24,
+    36
+  ],
+  "profiles": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "strategies": [
+    "BoulwareTBNegotiator",
+    "LinearTBNegotiator",
+    "ConcederTBNegotiator",
+    "SmartAspirationNegotiator",
+    "GeniusBOABaselineNegotiator"
+  ],
+  "n_seeds": 40,
+  "output_dir": "/Users/manangup/Desktop/Manan/UCSB/Winter26/GameTheory/Project/Project/results/presentation/run_full_presentable/main",
+  "include_self_play": true,
+  "time_limit": 1.0,
+  "buyer_reserved_value": 0.35,
+  "seller_reserved_value": 0.35,
+  "pend": 0.04,
+  "pend_per_second": 0.02,
+  "bootstrap_resamples": 2000,
+  "permutation_resamples": 2000,
+  "progress_every": 50
+}
